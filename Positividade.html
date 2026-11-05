@@ -1,0 +1,17 @@
+
+<input type="number" id="n">
+<button onclick="verificar()">Verificar</button>
+
+<script>
+function verificar() {
+    let n = Number(document.getElementById("n").value);
+
+    if (n > 0) {
+        alert("Número positivo");
+    } else if (n < 0) {
+        alert("Número negativo");
+    } else {
+        alert("Número nulo");
+    }
+}
+</script>
